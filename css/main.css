@@ -1,9 +1,18 @@
 .flexbox-parent {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
 }
 
 .flexbox-item {
-  flex-basis: 150px;
   flex-shrink: 1;
+  flex-grow: 1;
 }
+/* 
+.flexbox-item:nth-child(2) {
+  align-self: flex-start;
+}
+
+.flexbox-item:nth-child(4) {
+  align-self: center;
+} */

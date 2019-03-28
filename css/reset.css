@@ -29,7 +29,7 @@ html {
 .wrapper-outline {
   display: flex;
 
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .flexbox-parent {
